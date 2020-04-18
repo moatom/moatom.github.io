@@ -1,6 +1,6 @@
 # Profile
 
-<img src="static/icon.png" alt="icon" width="100" />
+<img src="https://moatom.github.io/profile/static/icon.png" alt="icon" width="100px" />
 
 **My name is Tomoaki Kobayashi.**
 
