@@ -9,12 +9,11 @@ I am an undergraduate student of Tohoku University majoring in computer science,
 
 - **Twitter**: [@moatom](https://twitter.com/moatom)
 - **Github**: [moatom](https://github.com/moatom)
-<!-- - **Qiita (Japanese)**: [moatom](a) -->
 
 
 ## Programming Languages I Often Use
 **Recent**
-- OCaml (including MetaOCaml)
+- OCaml (including BER MetaOCaml)
 - Python
 - JavaScript (since ES6)
   
@@ -27,10 +26,9 @@ Year| Content
 -|-
 2015 | Dropped out of a high school
 2018 | Enrolled in Tohoku University
-2019 ~ now | [New strymonas (the link is to old ver.)](https://strymonas.github.io/): a efficient stream processing library by normalization of stream fusion  (a collaborative work with Dr. Kiselyov).
-2019 ~ now | Alistice: a social bookmark manager (using Vue.js and Flask)
+2018 ~ now | Alistice: a social bookmark manager (using Vue.js and Flask)
+2019 ~ now | [Strymonas v2](https://strymonas.github.io/): an efficient stream processing library by stream fusion (a collaborative work)
 
-<!-- 2019~now | [Alistice](https://alistice.com/): a social bookmark manager (using Vue.js and Flask) -->
 
 ## Posters and Presantations
 Title|Place
