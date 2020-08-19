@@ -18,19 +18,27 @@ I am an undergraduate student of Tohoku University majoring in computer science,
 - C
   
 
-##  Education and Works
+##  Education, Products, etc.
 Year| Content
 -|-
 2015 | Dropped out of a high school
 2018 | Enrolled in Tohoku University
 2018 ~ now | Alistice: a social bookmark manager (using Vue.js and Flask), [img1](static/alistice/1.png), [img2](static/alistice/2.png)
-2019 ~ now | [Strymonas v2](https://strymonas.github.io/): an efficient streaming library by stream fusion (a collaborative work)
+2019 ~ now | [strymonas (since version 2)](https://strymonas.github.io/): an efficient streaming library using stream fusion (a collaborative work)
 
 
-## Posters and Presantations
-Title|Place|File
+
+## Publications
+### Academic
+Year|Title|Place|File
+-|-|-|-
+2020|より清浄なStream Fusion / Highly Purifying Stream Fusion | [22th Workshop on Programming and Programming Languages (PPL 2020, poster and demo)](https://jssst-ppl.org/workshop/2020/), [アドバンス創造工学研修オンラインプレゼンテーション](https://www.ecei.tohoku.ac.jp/stepQI/about/docs/20-3%E5%AE%9F%E7%B8%BE%E3%83%AA%E3%82%B9%E3%83%88%28%E5%AD%A6%E5%A4%96%E7%94%A8%EF%BC%89.pdf) [(an intramural presentation through Step-QI School, poster)](https://www.ecei.tohoku.ac.jp/stepQI/) | [PPL](static/ppl2020.pdf), [Step-QI](static/02_住井研_小林.pdf)
+
+
+### Web Article
+Year|Title|Place
 -|-|-
-より清浄なStream Fusion / Purer Stream Fusion (poster and demo) | [22th Workshop on Programming and Programming Languages (PPL 2020)](https://jssst-ppl.org/workshop/2020/), [Step-QI School: アドバンス創造工学研修 Online Presentation](https://www.ecei.tohoku.ac.jp/stepQI/about/docs/20-3%E5%AE%9F%E7%B8%BE%E3%83%AA%E3%82%B9%E3%83%88%28%E5%AD%A6%E5%A4%96%E7%94%A8%EF%BC%89.pdf) | [PPL](static/ppl2020.pdf), [Step-QI](static/02_住井研_小林.pdf)
+2018|[充足可能性問題 (SAT)のQUBO表現 -最大独立集合問題に帰着させる方法-](https://qard.is.tohoku.ac.jp/T-Wave/?p=651)|T-Wave
 
 <br/>
 <br/>
