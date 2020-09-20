@@ -32,7 +32,7 @@ Year| Content
 ### Academic
 Year|Title|Place|File
 -|-|-|-
-2020|より清浄なStream Fusion / Highly Purifying Stream Fusion | [22th Workshop on Programming and Programming Languages (PPL 2020, poster and demo)](https://jssst-ppl.org/workshop/2020/), [アドバンス創造工学研修オンラインプレゼンテーション](https://www.ecei.tohoku.ac.jp/stepQI/about/docs/20-3%E5%AE%9F%E7%B8%BE%E3%83%AA%E3%82%B9%E3%83%88%28%E5%AD%A6%E5%A4%96%E7%94%A8%EF%BC%89.pdf) [(an intramural presentation through Step-QI School, poster)](https://www.ecei.tohoku.ac.jp/stepQI/) | [PPL](static/ppl2020.pdf), [Step-QI](static/02_住井研_小林.pdf)
+2020|より清浄なStream Fusion / Highly Purifying Stream Fusion |[The 37th JSSST Annual Conference (JSSST 2020, paper)](https://jssst2020.wordpress.com/), [22th Workshop on Programming and Programming Languages (PPL 2020, poster and demo)](https://jssst-ppl.org/workshop/2020/), [アドバンス創造工学研修オンラインプレゼンテーション(an intramural presentation through Step-QI School, poster)](https://www.ecei.tohoku.ac.jp/stepQI/about/docs/20-3%E5%AE%9F%E7%B8%BE%E3%83%AA%E3%82%B9%E3%83%88%28%E5%AD%A6%E5%A4%96%E7%94%A8%EF%BC%89.pdf) | [PPL](static/ppl2020.pdf), [Step-QI](static/02_住井研_小林.pdf)
 
 
 ### Web Article
