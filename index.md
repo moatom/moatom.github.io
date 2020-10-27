@@ -11,9 +11,10 @@ I am an undergraduate student of Tohoku University majoring in computer science,
 - **Github**: [moatom](https://github.com/moatom)
 
 
-## Programming Languages I Often Use
+## Programming Languages I Recently Use
 - OCaml (including BER MetaOCaml)
-- Python
+- Scala 3
+- Python 3
 - JavaScript (since ES6)
 - C
   
@@ -22,19 +23,18 @@ I am an undergraduate student of Tohoku University majoring in computer science,
 Year| Content
 -|-
 2015 | Dropped out of a high school
-2018 | Enrolled in Tohoku University
-2018 ~ now | Alistice: a social bookmark manager (using Vue.js and Flask), [img1](static/alistice/1.png), [img2](static/alistice/2.png)
-2019 ~ now | [strymonas (since version 2)](https://strymonas.github.io/): an efficient streaming library using stream fusion (a collaborative work)
-
+2018 ~ | Enrolled in Tohoku University
+2018 ~ | Alistice: a social bookmark manager (using Vue.js and Flask), [img1](static/alistice/1.png), [img2](static/alistice/2.png)
+2019 ~ | [strymonas (since version 2)](https://strymonas.github.io/): an efficient streaming library using stream fusion (a collaborative work)
 
 
 ## Publications
 ### Academic
 Year|Title|Place|File
 -|-|-|-
-2020|より清浄なStream Fusion / Highly Purifying Stream Fusion |[The 37th JSSST Annual Conference (JSSST 2020, paper)](https://jssst2020.wordpress.com/) | [paper](http://jssst.or.jp/files/user/taikai/2020/PPL/ppl2-2.pdf)
+2020|より清浄なStream Fusion / Highly Purifying Stream Fusion |[The 37th JSSST Annual Conference (JSSST 2020, paper, recieved Best Presentation Award)](https://jssst2020.wordpress.com/) | [paper](static/jssst2020.pdf), [slide](static/jssst2020-slide.pdf)
 ^|^|[22th Workshop on Programming and Programming Languages (PPL 2020, poster and demo)](https://jssst-ppl.org/workshop/2020/) | [poster](static/ppl2020.pdf)
-^|^|[アドバンス創造工学研修オンラインプレゼンテーション(an intramural presentation through Step-QI School, poster)](https://www.ecei.tohoku.ac.jp/stepQI/about/docs/20-3%E5%AE%9F%E7%B8%BE%E3%83%AA%E3%82%B9%E3%83%88%28%E5%AD%A6%E5%A4%96%E7%94%A8%EF%BC%89.pdf) | [poster](static/02_住井研_小林.pdf)
+^|^|[アドバンス創造工学研修オンラインプレゼンテーション(an intramural presentation through Step-QI School, poster)](https://www.ecei.tohoku.ac.jp/stepQI/about/docs/20-3%E5%AE%9F%E7%B8%BE%E3%83%AA%E3%82%B9%E3%83%88%28%E5%AD%A6%E5%A4%96%E7%94%A8%EF%BC%89.pdf) | [poster](static/step-qi.pdf)
 
 
 ### Web Article
