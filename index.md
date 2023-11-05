@@ -14,15 +14,13 @@ date: Novemver 5, 2023
 I am a graduate student at Tohoku University majoring in computer science.
 
 My research interest foucuses on theoretical foundations for software and
-the application of them, especcialy in the following fields:
+the application of them, especially in the following fields:
 
-- Programming Languages
-- Functional Programming
-- Embedded Domain Specific Languages
+- Programming language
+- Functional programming
+- (Embedded) Domain-specific language
 
 My current work is for [strymonas](https://strymonas.github.io/).
-
-
 
 
 ##  Education

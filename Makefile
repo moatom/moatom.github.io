@@ -4,7 +4,7 @@ all: build check
 
 build:
 	pandoc --standalone index.md -o index.html
-	pandoc --citeproc mybib.md >> index.html
+	pandoc --citeproc mybib.md --csl=acm-sig-proceedings-long-author-list >> index.html
 
 check:
 	open index.html
