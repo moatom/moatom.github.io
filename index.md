@@ -28,7 +28,7 @@ Year| Degree
 -|-
 2014 - 2015 | Dropout, an evening high school
 2018 - 2022 | Bachelor of Engineering, Tohoku University
-2022 - Current  | Master of Information Science, Tohoku University
+2022 - Present  | Master of Information Science, Tohoku University
 
 Detail: **[CV (pdf)](https://moatom.github.io/profile/static/cv-pub.pdf)**
 
