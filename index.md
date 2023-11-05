@@ -1,5 +1,5 @@
 ---
-title: My Profile
+title: Tomoaki Kobayashi
 date: Novemver 5, 2023
 ---
 
@@ -7,28 +7,31 @@ date: Novemver 5, 2023
 
 **My name is Tomoaki Kobayashi.**
 
-- **Twitter**: [@moatom](https://twitter.com/moatom)
-- **Github**: [moatom](https://github.com/moatom)
-- **CV**: [pdf](https://moatom.github.io/profile/static/cv-pub.pdf)
+- **[X (Twitter)](https://twitter.com/moatom)**
+- **[GitHub](https://github.com/moatom)**
+- **[Quora](https://www.quora.com/profile/Tomoaki-Kobayashi-1)**
 
 I am a graduate student at Tohoku University majoring in computer science.
 
-My research interest foucuses on theoretical foundations for software and its application,
-especcialy in the following fields:
+My research interest foucuses on theoretical foundations for software and
+the application of them, especcialy in the following fields:
 
 - Programming Languages
 - Functional Programming
 - Embedded Domain Specific Languages
 
+My current work is for [strymonas](https://strymonas.github.io/).
+
 
 
 
 ##  Education
-Year| Content
+Year| Degree
 -|-
-2015 | Dropped out of an evening high school
+2014 - 2015 | Dropout, an evening high school
 2018 - 2022 | Bachelor of Engineering, Tohoku University
 2022 - Current  | Master of Information Science, Tohoku University
 
+Detail: **[CV (pdf)](https://moatom.github.io/profile/static/cv-pub.pdf)**
 
 
