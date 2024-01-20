@@ -3,3 +3,5 @@
 *.csl
 static/note.md
 static/cv
+
+*.backup
