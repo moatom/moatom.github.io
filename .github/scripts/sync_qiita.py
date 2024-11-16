@@ -50,13 +50,14 @@ def post_or_update_article(file_path, article_id=None):
         if len(title) < 1:
             raise ValueError("タイトルは1文字以上でなければなりません。")
         body = content
-        if len(body) < 20:  # 20文字以上の本文を求める
-            raise ValueError("本文は20文字以上でなければなりません。")
+        if len(body) < 20:  # 3文字以上の本文を求める
+            raise ValueError("本文は3文字以上でなければなりません。")
 
         response = requests.post(
             QIITA_API_URL,
             headers={"Authorization": f"Bearer {QIITA_ACCESS_TOKEN}"},
-            json={"title": file_path.stem, "body": body, "tags": [{"name":"test"}], "private": True}  # プライベート設定
+            # json={"title": file_path.stem, "body": body, "tags": [{"name":"test"}], "private": True}  # プライベート設定
+            json={"title": file_path.stem, "body": body, "tags": [{"name":"test"}], "draft": True}  # 下書き設定
         )
 
     # エラーチェック
