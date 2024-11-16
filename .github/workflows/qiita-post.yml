@@ -12,12 +12,14 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2  # リポジトリの最新2件の履歴を取得
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.10
+          python-version: '3.12.7'
 
       - name: Install dependencies
         run: |
@@ -29,10 +31,19 @@ jobs:
           QIITA_ACCESS_TOKEN: ${{ secrets.QIITA_API_TOKEN }}
         run: python .github/scripts/sync_qiita.py
 
+      - name: Check for changes in qiita_posts
+        id: check_changes
+        run: |
+          # qiita_article_ids.json を変更対象として確認
+          git diff --quiet qiita_article_ids.json
+          echo "Changes detected in qiita_article_ids.json: $?"
+        continue-on-error: true  # git diff がエラーを返してもエラーとして扱わない
+
       - name: Commit updated article IDs
+        if: steps.check_changes.outcome == 'failure'  # 変更があった場合にのみ実行
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .github/scripts/qiita_article_ids.json
+          git add qiita_article_ids.json
           git commit -m "Update article IDs"
           git push
