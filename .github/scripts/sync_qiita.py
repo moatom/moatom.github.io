@@ -56,9 +56,8 @@ def post_or_update_article(file_path, article_id=None):
         response = requests.post(
             QIITA_API_URL,
             headers={"Authorization": f"Bearer {QIITA_ACCESS_TOKEN}"},
-            json={"title": file_path.stem, "body": body, "tags": [{"name":"Ruby", "versions": ["0.0.1"]}], "private": True}  # プライベート設定
+            json={"title": file_path.stem, "body": body, "tags": [{"name":"test"}], "private": True}  # プライベート設定
         )
-        print(response.json())
 
     # エラーチェック
     if response.status_code in [200, 201]:

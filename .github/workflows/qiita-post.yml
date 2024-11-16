@@ -31,19 +31,25 @@ jobs:
           QIITA_ACCESS_TOKEN: ${{ secrets.QIITA_API_TOKEN }}
         run: python .github/scripts/sync_qiita.py
 
-      - name: Check for changes in qiita_posts
+      - name: Check for changes in qiita_article_ids.json
         id: check_changes
         run: |
-          # qiita_article_ids.json を変更対象として確認
-          git diff --quiet qiita_article_ids.json
-          echo "Changes detected in qiita_article_ids.json: $?"
-        continue-on-error: true  # git diff がエラーを返してもエラーとして扱わない
+          changes=$(git status --short | grep "qiita_article_ids.json" || true)
+          if [ -z "$changes" ]; then
+            echo "No changes detected in qiita_article_ids.json"
+            echo "continue=false" >> $GITHUB_ENV
+          else
+            echo "Changes detected in qiita_article_ids.json"
+            echo "continue=true" >> $GITHUB_ENV
+          fi
 
       - name: Commit updated article IDs
-        if: steps.check_changes.outcome == 'failure'  # 変更があった場合にのみ実行
+        if: env.continue == 'true' # 変更があった場合にのみ実行
         run: |
+          echo "Handling changes..."
+          # 必要なスクリプトやコマンドをここに追加
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add qiita_article_ids.json
-          git commit -m "Update article IDs"
+          git commit -m "Update qiita_article_ids.json"
           git push
