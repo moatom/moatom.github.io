@@ -1,39 +1,46 @@
 @Misc{strymonas-OCaml22,
- title =        "Highest-performance Stream Processing",
- author =       "Oleg Kiselyov and Tomoaki Kobayashi and Aggelos Biboudis and
-                 Nick Palladinos",
- year =         2022,
- doi =          {10.48550/arXiv.2211.13461},
- note =        "ACM SIGPLAN OCaml workshop",
+  title =        "Highest-performance Stream Processing",
+  author =       "Oleg Kiselyov and Tomoaki Kobayashi and Aggelos
+                 Biboudis and Nick Palladinos",
+  year =         "2022",
+  eprint =       "2211.13461",
+  archivePrefix = "arXiv",
+  primaryClass = "cs.PL",
+  note =         "ACM SIGPLAN OCaml workshop",
 }
 
-@inbook{strymonas-PEPM24,
-author = {Kobayashi, Tomoaki and Kiselyov, Oleg},
-title = {Complete Stream Fusion for Software-Defined Radio},
-year = {2024},
-isbn = {9798400704871},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3635800.3636962},
-abstract = {Strymonas is a code-generation--based library (embedded DSL) for fast,  
-bulk, single-thread in-memory stream processing -- with the declarative  
-description of stream pipelines and yet achieving the speed and memory  
-efficiency of hand-written state machines. It guarantees complete  
-stream fusion in all cases.  
-
-So far, strymonas has been used on small examples and  
-micro-benchmarks. In this work, we evaluate strymonas on a large,  
-real-life application of Software-Defined Radio -- FM Radio  
-reception, -- contrasting and benchmarking it against the synchronous  
-dataflow system StreamIt, and the state-of-the art: GNU Radio.  
-
-Strymonas, despite being declarative, single-thread single-core with  
-no explicit support for SIMD, no built-in windowing or convolution,  
-turns out to offer portable high performance, well enough for  
-real-time FM Radio reception. It is on par with (or, on Raspberry Pi  
-Zero, outstripping) GNU Radio, while providing static guarantees of  
-complete fusion and type safety.},
-booktitle = {Proceedings of the 2024 ACM SIGPLAN International Workshop on Partial Evaluation and Program Manipulation},
-pages = {57–69},
-numpages = {13}
+@InBook{strymonas-PEPM24,
+  author =       "Tomoaki Kobayashi and Oleg Kiselyov",
+  title =        "Complete Stream Fusion for Software-Defined Radio",
+  year =         "2024",
+  isbn =         "9798400704871",
+  publisher =    "Association for Computing Machinery",
+  address =      "New York, NY, USA",
+  doi =          {https://doi.org/10.1145/3635800.3636962},
+  abstract =     "Strymonas is a code-generation--based library
+                 (embedded DSL) for fast, bulk, single-thread in-memory
+                 stream processing -- with the declarative description
+                 of stream pipelines and yet achieving the speed and
+                 memory efficiency of hand-written state machines. It
+                 guarantees complete stream fusion in all cases. So far,
+                 strymonas has been used on small examples and
+                 micro-benchmarks. In this work, we evaluate strymonas
+                 on a large, real-life application of Software-Defined
+                 Radio -- FM Radio reception, -- contrasting and
+                 benchmarking it against the synchronous dataflow system
+                 StreamIt, and the state-of-the art: GNU Radio.
+                 Strymonas, despite being declarative, single-thread
+                 single-core with no explicit support for SIMD, no
+                 built-in windowing or convolution, turns out to offer
+                 portable high performance, well enough for real-time FM
+                 Radio reception. It is on par with (or, on Raspberry Pi
+                 Zero, outstripping) GNU Radio, while providing static
+                 guarantees of complete fusion and type safety.",
+  booktitle =    "Proceedings of the 2024 {ACM} {SIGPLAN} International
+                 Workshop on Partial Evaluation and Program
+                 Manipulation",
+  pages =        "57--69",
+  numpages =     "13",
+  annote =       "Distinguished Papar Award",
+  note =         "There is a typo in p.62; {s/``reduce trep''/``dot trep''/g}.",
 }

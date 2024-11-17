@@ -2,6 +2,15 @@
 
 https://moatom.github.io/profile
 
+# Note
+
+```
+cat ~/.pandoc/filters/boldname.lua
+cat ~/.pandoc/filters/date.lua 
+cat ~/.pandoc/filters/multibib.lua
+cat ~/.pandoc/templates/moatom.html
+```
+
 ## Tips
 
 https://qiita.com/KEINOS/items/fcaf458da37e0d7c3f19

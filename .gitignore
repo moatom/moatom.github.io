@@ -3,5 +3,9 @@
 *.csl
 static/note.md
 static/cv
+static/素材
 
 *.backup
+
+posts
+test
