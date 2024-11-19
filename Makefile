@@ -2,7 +2,7 @@
 .SUFFIXES: .md .html
 
 
-PANDOC=pandoc -V fontsize=14pt --template=moatom.html
+PANDOC=pandoc -V fontsize=14pt --template=moatom.html --css=style.css
 SRCS=\
 	oss.md \
 	research.md \

@@ -52,8 +52,8 @@ active-about: active
 
 <div class="uooo">
 Year| Company / Job
-:-:|-
-2024--NOW | *Anonymized* / Ad tech (programatic advertisement) enginner
+:-:|-:
+2024--Present | *Anonymized* / Software Engineer in ad tech (programmatic advertising) 
 <style>
 .uooo > table{
   display: table;
@@ -123,5 +123,5 @@ Year| Degree
   certainly my father was, but in the area of medicine---[artificial heart](https://nrid.nii.ac.jp/en/nrid/1000020323610/),
   and not in computer science, mathematics, etc. :-)
 
-[^1]: If you are a foreigner, please note that GPAs at Japanese universities are assigned with extreme rigor. This is not the final record, but it should be close to it.
-[^2]: If you are a foreigner, please note that GPAs at Japanese universities are assigned with extreme rigor. This is not the final record, but it should be close to it.
+[^1]: If you are a foreigner, please note that GPAs at Japanese universities are assigned with extreme rigor. As far as I know, my grades have remained among the top scores in my course. (FIXE: This is not the final record, but it should be close to it.)
+[^2]: The same as 1. As evidence of this, I was exempted from the written exam when I entered the graduate school.
