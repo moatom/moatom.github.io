@@ -111,17 +111,17 @@ Year| Degree
 - Scala 3, OCaml, C, Python 3, JavaScript/Vue (, Kotlin, C++, JavaScript/React, Lua, Java, Rust)
 - Makefile, Git, Docker, Jenkins, GitHub Actions
 - Linux, macOS
-- VSCode, Emacs, Neovim,  IntelliJ
+- VSCode, Emacs, Neovim, IntelliJ
 - LaTeX, Pandoc
 
 ## Avoiding Ambiguity
 
 - Typing, verification, etc., are outside the scope of my **research** interests.
   I am just an ordinary user of them.
-  - From the perspective of [the lazy programmers](https://thethreevirtues.com/), I prefer GC over ownership for example. 🤫
+  - From the perspective of [the lazy programmers](https://thethreevirtues.com/), I prefer GC over handling ownership for example. 🤫
 - Kobayashi is a common last name in Japan and no relative of mine isn't in research fields;
   certainly my father was, but in the area of medicine---[artificial heart](https://nrid.nii.ac.jp/en/nrid/1000020323610/),
   and not in computer science, mathematics, etc. :-)
 
-[^1]: If you are a foreigner, please note that GPAs at Japanese universities are assigned with extreme rigor. As far as I know, my grades have remained among the top scores in my course. (FIXE: This is not the final record, but it should be close to it.)
+[^1]: If you are a foreigner, please note that GPAs at Japanese universities are assigned with extreme rigor. As far as I know, my grades have remained among the top scores in my course. (FIXME: This is not the final record, but it should be close to it.)
 [^2]: The same as 1. As evidence of this, I was exempted from the written exam when I entered the graduate school.
