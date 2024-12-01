@@ -130,15 +130,15 @@ div.csl-indent {
     <div class="body-block">
     <h1 data-number="1" id="overview"><span
     class="header-section-number">1</span> Overview</h1>
-    <div style="display: flex;">
+    <div class="container">
     <!-- <img src="https://moatom.github.io/profile/static/icon.png" alt="icon" width="100px"
            style="margin-left: 20pt; margin-right: 20pt;" /> -->
-    <img src="./static/me.jpg" alt="icon" height="430px"
-           style="margin-left: 20pt; margin-right: 20pt; margin-top: 35pt;" />
+    <img src="./static/me.jpg" alt="icon" class="image"/>
     <!-- <img src="./static/me.jpg" alt="icon" width="250px"
            style="margin-left: 20pt; margin-right: 20pt;" /> -->
-    <div>
+    <div class="text">
     <p><strong>My name is Tomoaki KOBAYASHI.</strong></p>
+    <p><strong>Nice to meet you! 🤗</strong></p>
     <ul>
     <li>SNS
     <ul>
@@ -158,7 +158,6 @@ div.csl-indent {
     <!-- - **[Quora](https://www.quora.com/profile/Tomoaki-Kobayashi-1)** --></li>
     </ul></li>
     </ul>
-    <p><strong>Nice to meet you! 🤗</strong></p>
     <p>I am a software engineer (mainly writing Scala for my job) with
     strong interest in research on software.</p>
     <p>My research interests focus on theoretical foundations of
@@ -175,15 +174,45 @@ div.csl-indent {
     declarative stream processing library which proposes <em>complete
     stream fusion</em>; its processing runs in constant memory!
     </div>
+    <style>
+    .container {
+      display: flex; /* 横並びにする */
+      flex-wrap: wrap; /* 必要に応じて折り返し */
+      /* align-items: center; 縦方向を中央揃え */
+      gap: 16px; /* 要素間の間隔 */
+    }
+
+    .image {
+      /* width: 200px; 画像の幅を適宜設定 */
+      /* height: auto; */
+      height: 400px;
+      margin-left: 20pt;
+      margin-right: 20pt;
+      margin-top: 10pt;
+    }
+
+    .text {
+      flex: 1; /* テキスト部分を画像に対して伸縮可能にする */
+    }
+
+    /* スマホ向けのスタイル（画面幅が768px以下の場合） */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column; /* 縦並びにする */
+        align-items: flex-start; /* 左寄せにする */
+      }
+
+      .image {
+        /* width: 100%; 画面幅いっぱいに調整 */
+        height: 400px;
+      }
+    }
+    </style>
     </div>
     <h1 data-number="2" id="experience"><span
     class="header-section-number">2</span> Experience</h1>
     <div class="uooo">
     <table>
-    <colgroup>
-    <col style="width: 60%" />
-    <col style="width: 40%" />
-    </colgroup>
     <thead>
     <tr class="header">
     <th style="text-align: center;">Year</th>
@@ -194,7 +223,7 @@ div.csl-indent {
     <tr class="odd">
     <td style="text-align: center;">2024–Present</td>
     <td style="text-align: right;"><em>Anonymized</em> / Software
-    Engineer in ad tech (programmatic advertising)</td>
+    Engineer in ad tech</td>
     </tr>
     </tbody>
     </table>
@@ -316,20 +345,23 @@ div.csl-indent {
     Rust</li>
     <li>Git, Docker, Makefile, Jenkins, GitHub Actions</li>
     </ul>
+    <style>
+    body {
+      min-width: 530px;
+    }
+    </style>
     <aside id="footnotes" class="footnotes footnotes-end-of-document"
     role="doc-endnotes">
     <hr />
     <ol>
-    <li id="fn1"><p>If you are a foreigner, please note that GPAs at
-    Japanese universities are assigned with extreme rigor. As far as I
-    know, my grades have remained among the top scores in my course.
-    (FIXME: This is not the final record, but it should be close to
-    it.)<a href="#fnref1" class="footnote-back"
+    <li id="fn1"><p>Please note that in Japanese universities, GPAs tend
+    to be graded strictly. As a side note, I was exempted from the
+    written exam when I entered the graduate school. (FIXME: This is not
+    the final record although it should be close to it.)<a
+    href="#fnref1" class="footnote-back"
     role="doc-backlink">↩︎</a></p></li>
-    <li id="fn2"><p>The same as 1. As evidence of this, I was exempted
-    from the written exam when I entered the graduate school.<a
-    href="#fnref2" class="footnote-back"
-    role="doc-backlink">↩︎</a></p></li>
+    <li id="fn2"><p>The same as 1.<a href="#fnref2"
+    class="footnote-back" role="doc-backlink">↩︎</a></p></li>
     </ol>
     </aside>
   </div>

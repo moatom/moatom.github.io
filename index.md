@@ -9,15 +9,16 @@ active-about: active
 
 # Overview
 
-<div style="display: flex;">
+<div class="container">
   <!-- <img src="https://moatom.github.io/profile/static/icon.png" alt="icon" width="100px"
        style="margin-left: 20pt; margin-right: 20pt;" /> -->
-  <img src="./static/me.jpg" alt="icon" height="430px"
-       style="margin-left: 20pt; margin-right: 20pt; margin-top: 35pt;" />
+  <img src="./static/me.jpg" alt="icon" class="image"/>
   <!-- <img src="./static/me.jpg" alt="icon" width="250px"
        style="margin-left: 20pt; margin-right: 20pt;" /> -->
-  <div>
+  <div class="text">
   **My name is Tomoaki KOBAYASHI.**
+
+  **Nice to meet you! 🤗**
 
   - SNS
     - [X](https://twitter.com/moatom)
@@ -29,8 +30,6 @@ active-about: active
   - Misc.
     - [ORCID: 0009-0006-7147-9997](https://orcid.org/0009-0006-7147-9997)
   <!-- - **[Quora](https://www.quora.com/profile/Tomoaki-Kobayashi-1)** -->
-
-  **Nice to meet you! 🤗**
 
   I am a software engineer (mainly writing Scala for my job)
   with strong interest in research on software.
@@ -46,6 +45,40 @@ active-about: active
   lightweight declarative stream processing library which proposes *complete stream fusion*;
   its processing runs in constant memory!
   </div>
+<style>
+.container {
+  display: flex; /* 横並びにする */
+  flex-wrap: wrap; /* 必要に応じて折り返し */
+  /* align-items: center; 縦方向を中央揃え */
+  gap: 16px; /* 要素間の間隔 */
+}
+
+.image {
+  /* width: 200px; 画像の幅を適宜設定 */
+  /* height: auto; */
+  height: 400px;
+  margin-left: 20pt;
+  margin-right: 20pt;
+  margin-top: 10pt;
+}
+
+.text {
+  flex: 1; /* テキスト部分を画像に対して伸縮可能にする */
+}
+
+/* スマホ向けのスタイル（画面幅が768px以下の場合） */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* 縦並びにする */
+    align-items: flex-start; /* 左寄せにする */
+  }
+
+  .image {
+    /* width: 100%; 画面幅いっぱいに調整 */
+    height: 400px;
+  }
+}
+</style>
 </div>
 
 
@@ -54,7 +87,7 @@ active-about: active
 <div class="uooo">
 Year| Company / Job
 :-:|-:
-2024--Present | *Anonymized* / Software Engineer in ad tech (programmatic advertising) 
+2024--Present | *Anonymized* / Software Engineer in ad tech
 <style>
 .uooo > table{
   display: table;
@@ -113,5 +146,11 @@ Year| Degree
 - Sub Languages: Kotlin, C++, JavaScript/React, Lua, Java, Rust
 - Git, Docker, Makefile, Jenkins, GitHub Actions
 
-[^1]: If you are a foreigner, please note that GPAs at Japanese universities are assigned with extreme rigor. As far as I know, my grades have remained among the top scores in my course. (FIXME: This is not the final record, but it should be close to it.)
-[^2]: The same as 1. As evidence of this, I was exempted from the written exam when I entered the graduate school.
+[^1]: Please note that in Japanese universities, GPAs tend to be graded strictly. As a side note, I was exempted from the written exam when I entered the graduate school. (FIXME: This is not the final record although it should be close to it.)
+[^2]: The same as 1.
+
+<style>
+body {
+  min-width: 530px;
+}
+</style>
