@@ -148,9 +148,3 @@ Year| Degree
 
 [^1]: Please note that in Japanese universities, GPAs tend to be graded strictly. As a side note, I was exempted from the written exam when I entered the graduate school. (FIXME: This is not the final record although it should be close to it.)
 [^2]: The same as 1.
-
-<style>
-body {
-  min-width: 530px;
-}
-</style>

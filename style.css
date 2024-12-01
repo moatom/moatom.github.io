@@ -1,6 +1,7 @@
 /* CUSTOM */
 body {
   font-family: 'Times New Roman', Times, serif;
+  min-width: 530px;
 }
 
 /* DEFAULT */
