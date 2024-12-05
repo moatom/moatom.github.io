@@ -107,7 +107,7 @@ Year| Company / Job
 Year| Degree
 :-:|-:
 2022--2024 | **Master of Information Sciences in CS**, Tohoku University<br><small>GPA: 3.66[^1]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
-2018--2022 | **Bachelor of Engineering in CS**, Tohoku University<br><small>GPA: 3.55[^2]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
+2018--2022 | **Bachelor of Engineering in CS**, Tohoku University<br><small>Cumulative GPA: 3.55[^2]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
 2014--2015 | **Dropout**, *An evening high school*
 <!-- 2015        | Pass the Upper Secondary School Equivalency Examination -->
 <!-- https://github.com/jgm/pandoc/issues/8139 -->
