@@ -1,7 +1,7 @@
 ---
 title-prefix: Tomoaki Kobayashi
 title: About
-bibliography: 
+bibliography:
   moatom: biblio.bib
 nocite: '@*'
 active-about: active
@@ -146,5 +146,5 @@ Year| Degree
 - Sub Languages: Kotlin, C++, JavaScript/React, Lua, Java, Rust
 - Git, Docker, Makefile, Jenkins, GitHub Actions
 
-[^1]: Please note that in Japanese universities, GPAs tend to be graded strictly. As a side note, I was exempted from the written exam when I entered the graduate school. (FIXME: This is not the final record although it should be close to it.)
+[^1]: Please note that GPAs tend to be graded strictly in Japanese universities, and are not considerd the best factor especially by Japanese companies. As a side note, I was exempted from the written exam when I entered the graduate school. (FIXME: This is not the final record although it should be close to it.)
 [^2]: The same as 1.
