@@ -45,8 +45,8 @@ active-about: active
   lightweight declarative stream processing library which proposes *complete stream fusion*;
   its processing runs in constant memory!
 
-  My vision is to provide solutoins for real-world problems by high-quality softwares based on these technics.
-  </div>
+  My vision is to provide solutions to real-world problems through high-quality software based on these techniques.
+</div>
 <style>
 .container {
   display: flex; /* 横並びにする */
@@ -89,7 +89,7 @@ active-about: active
 <div class="uooo">
 Year| Company / Job
 :-:|-:
-2024--Present | *Anonymized* / Software Engineer in ad tech
+2024--Present | *Anonymized*[^1] / Software Engineer in ad tech[^2]
 <style>
 .uooo > table{
   display: table;
@@ -99,6 +99,8 @@ Year| Company / Job
 }
 </style>
 </div>
+[^1]: To avoid unnecessary trouble
+[^2]: I primarily work on developing an auction-based internet advertising delivery system, commonly known as Real-Time Bidding (RTB).
 
 
 # Academic
@@ -108,9 +110,9 @@ Year| Company / Job
 <div class="uooo">
 Year| Degree
 :-:|-:
-2022--2024 | **Master of Information Sciences in CS**, Tohoku University<br><small>GPA: 3.8[^1]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
-2018--2022 | **Bachelor of Engineering in CS**, Tohoku University<br><small>Major GPA: 3.73[^2]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
-2014--2015 | **Dropout**, *An evening high school*
+2022--2024 | **Master of Information Sciences in CS**, Tohoku University<br><small>GPA: 3.8[^3]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
+2018--2022 | **Bachelor of Engineering in CS**, Tohoku University<br><small>Major GPA: 3.73[^4]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
+2014--2015 | **Dropout**[^5], *An evening high school*
 <!-- 2015        | Pass the Upper Secondary School Equivalency Examination -->
 <!-- https://github.com/jgm/pandoc/issues/8139 -->
 <style>
@@ -122,6 +124,10 @@ Year| Degree
 }
 </style>
 </div>
+
+[^3]: Please note that GPAs tend to be graded strictly in Japan. As a side note, I was exempted from the written exam when I entered the graduate school.
+[^4]: The same as 1.
+[^5]: Instead, I earned a high school equivalency diploma issued by the Japanese government. This turned out to be one of the best decisions I ever made.
 
 <!-- Detail: **[CV (pdf)](https://moatom.github.io/profile/static/cv-pub.pdf)** -->
 
@@ -145,8 +151,6 @@ Year| Degree
 ## Skills and Tools
 
 - Main Languages: Scala 3, OCaml, C, Python 3, JavaScript/Vue
-- Sub Languages: Kotlin, C++, JavaScript/React, Lua, Java, Rust
+  - Sub Languages: Kotlin, C++, JavaScript/React, Lua, Java, Rust
 - Git, Docker, Makefile, Jenkins, GitHub Actions
 
-[^1]: Please note that GPAs tend to be graded strictly in Japan. As a side note, I was exempted from the written exam when I entered the graduate school.
-[^2]: The same as 1.
