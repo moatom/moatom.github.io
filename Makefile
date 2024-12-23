@@ -31,7 +31,7 @@ index.html: biblio.bib index.md
 # 					--standalone $< -o $@
 
 build: $(SRCS:.md=.html)
-# sed -i'.backup' s@'Kobayashi, T.'@'<b>Kobayashi, T.</b>'@g index.html 
+# sed -i'.backup' s@'Kobayashi, T.'@'<b>Kobayashi, T.</b>'@g index.html
 # pandoc --citeproc mybib.md --csl=acm-sig-proceedings-long-author-list >> index.html
 
 
@@ -48,8 +48,8 @@ publish:
 	open https://moatom.github.io/profile/
 	open https://github.com/moatom/profile
 
-new-blog:
-	code ./blog/$(shell date +%Y-%m-%d%n).md
+# new-blog:
+# 	code ./blog/$(shell date +%Y-%m-%d%n).md
 
 clean:
 	-rm *.html
@@ -59,3 +59,8 @@ clean:
 
 filters:
 	open  ~/.pandoc/filters
+
+install:
+	mkdir -p ~/.pandoc/filters
+	mkdir -p ~/.pandoc/templates
+	cp -rf static/pandoc/ ~/.pandoc/

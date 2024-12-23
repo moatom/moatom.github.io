@@ -44,6 +44,8 @@ active-about: active
   My main research work is about [strymonas](https://strymonas.github.io/)---a
   lightweight declarative stream processing library which proposes *complete stream fusion*;
   its processing runs in constant memory!
+
+  My vision is to provide solutoins for real-world problems by high-quality softwares based on these technics.
   </div>
 <style>
 .container {
@@ -106,8 +108,8 @@ Year| Company / Job
 <div class="uooo">
 Year| Degree
 :-:|-:
-2022--2024 | **Master of Information Sciences in CS**, Tohoku University<br><small>GPA: 3.66[^1]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
-2018--2022 | **Bachelor of Engineering in CS**, Tohoku University<br><small>Cumulative GPA: 3.55[^2]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
+2022--2024 | **Master of Information Sciences in CS**, Tohoku University<br><small>GPA: 3.8[^1]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
+2018--2022 | **Bachelor of Engineering in CS**, Tohoku University<br><small>Major GPA: 3.73[^2]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
 2014--2015 | **Dropout**, *An evening high school*
 <!-- 2015        | Pass the Upper Secondary School Equivalency Examination -->
 <!-- https://github.com/jgm/pandoc/issues/8139 -->
@@ -146,5 +148,5 @@ Year| Degree
 - Sub Languages: Kotlin, C++, JavaScript/React, Lua, Java, Rust
 - Git, Docker, Makefile, Jenkins, GitHub Actions
 
-[^1]: Please note that GPAs tend to be graded strictly in Japanese universities, and are not considerd the best factor especially by Japanese companies. As a side note, I was exempted from the written exam when I entered the graduate school. (FIXME: This is not the final record although it should be close to it.)
+[^1]: Please note that GPAs tend to be graded strictly in Japan. As a side note, I was exempted from the written exam when I entered the graduate school.
 [^2]: The same as 1.
