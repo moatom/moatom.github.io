@@ -45,7 +45,9 @@ active-about: active
   lightweight declarative stream processing library which proposes *complete stream fusion*;
   its processing runs in constant memory!
 
-  My vision is to provide solutions to real-world problems through high-quality software based on these techniques.
+  My vision is to provide solutions to real-world problems of software through these techniques.
+  Software is often too fragile, and maintaining it consumes a tremendous amount of the world's resources unnecessarily.
+  To protect humanity's productivity, I will lead the way in making software robust and resilient.
 </div>
 <style>
 .container {
@@ -170,4 +172,4 @@ Scala 2, Scala 3, Python, Docker, Ansible, Jenkins, Niginx, gRPC, etc. (in on-pr
 
 - Main Languages: Scala 3, OCaml, C, Python 3, JavaScript/Vue
   - Sub Languages: Kotlin, C++, Rust, JavaScript/React, Lua, Java
-- Git, LaTex, Makefile, Docker, Jenkins, GitHub Actions
+- Git, LaTex, Makefile, Valgrind, Docker, Jenkins, GitHub Actions
