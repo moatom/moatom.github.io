@@ -39,7 +39,7 @@ active-about: active
 
   - Programming languages
   - (Moderately) Functional programming
-  - Embedded domain-specific languages, Code generation, metaprograming
+  - Embedded domain-specific languages, code generation, metaprograming, partial evaluation
 
   My main research work is about [strymonas](https://strymonas.github.io/)---a
   lightweight declarative stream processing library which proposes *complete stream fusion*;
@@ -101,7 +101,7 @@ Year| Company / Job
 }
 </style>
 </div>
-[^1]: I primarily work on developing an auction-based internet advertising delivery system, commonly known as Real-Time Bidding (RTB).
+[^1]: I primarily work on developing an auction-based internet advertising delivery system, commonly known as Real-Time Bidding (RTB). I have ever recieved monthly MVP twice (￥50 k/MVP) in the Software Development Team
 
 
 # Academic
@@ -142,7 +142,6 @@ Year| Degree
 <div class="uooo">
 Year| Award
 :-:|-:
-2024 | [JPN] Monthly MVP in the Software Development Team, MicroAd, Inc. × 2<br>(￥50 k/MVP)
 2024 | ACM SIGPLAN PEPM 2024 Distinguished Paper Award ([image](./static/award-pepm24.jpeg))
 2020 | [JPN] JSSST 2020 Best Presentation Award ([image](./static/award-jssst20.jpeg))
 <style>
@@ -166,10 +165,13 @@ Year| Award
 
 ### Professional Experience
 
-Scala 2, Scala 3, Python, Docker, Ansible, Jenkins, Niginx, gRPC, etc. (in on-prem environment)
+- Scala, Python
+- GitHub Enterprise, Makefile, Docker, Ansible, Jenkins
+- gRPC, Niginx, MySQL, Redis, Akka, Apache Spark
+- on-prem environment
 
 ### All in All
 
-- Main Languages: Scala 3, OCaml, C, Python 3, JavaScript/Vue
-  - Sub Languages: Kotlin, C++, Rust, JavaScript/React, Lua, Java
-- Git, LaTex, Makefile, Valgrind, Docker, Jenkins, GitHub Actions
+- Main Languages: Scala, OCaml, C, Python 3, JavaScript/Vue
+  - Sub Languages: Kotlin, C++, Rust, Lua, Java
+- Git, LaTex, Valgrind, GitHub Actions
