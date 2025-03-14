@@ -1,6 +1,6 @@
 # profile
 
-https://moatom.github.io/profile
+https://moatom.github.io/
 
 # Note
 
