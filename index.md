@@ -39,7 +39,7 @@ active-about: active
 
   - Programming languages
   - (Moderately) Functional programming
-  - Embedded domain-specific languages, code generation, metaprograming, partial evaluation
+  - Embedded domain-specific languages, code generation, metaprogramming, partial evaluation
 
   My main research work is about [strymonas](https://strymonas.github.io/)---a
   lightweight declarative stream processing library which proposes *complete stream fusion*;
@@ -134,6 +134,8 @@ Year| Degree
 
 ## Publications
 
+Only international publications are listed here:
+
 ::: {#refs-moatom}
 :::
 
@@ -167,11 +169,11 @@ Year| Award
 
 - Scala, Python
 - GitHub Enterprise, Makefile, Docker, Ansible, Jenkins
-- gRPC, Niginx, MySQL, Redis, Akka, Apache Spark
+- Protocol Buffers, Niginx, MySQL, Redis, Akka, Apache Spark
 - on-prem environment
 
 ### All in All
 
-- Main Languages: Scala, OCaml, C, Python 3, JavaScript/Vue
+- Main Languages: Scala, OCaml, C, Python, JavaScript/Vue
   - Sub Languages: Kotlin, C++, Rust, Lua, Java
 - Git, LaTex, Valgrind, GitHub Actions
