@@ -1,7 +1,7 @@
 ---
 title-prefix: Tomoaki Kobayashi
 title: About
-bibliography: 
+bibliography:
   moatom: biblio.bib
 nocite: '@*'
 active-about: active
@@ -9,15 +9,16 @@ active-about: active
 
 # Overview
 
-<div style="display: flex;">
+<div class="container">
   <!-- <img src="https://moatom.github.io/profile/static/icon.png" alt="icon" width="100px"
        style="margin-left: 20pt; margin-right: 20pt;" /> -->
-  <img src="./static/me.jpg" alt="icon" height="430px"
-       style="margin-left: 20pt; margin-right: 20pt; margin-top: 35pt;" />
+  <img src="./static/me.jpg" alt="icon" class="image"/>
   <!-- <img src="./static/me.jpg" alt="icon" width="250px"
        style="margin-left: 20pt; margin-right: 20pt;" /> -->
-  <div>
-  **My name is Tomoaki KOBAYASHI. 🇯🇵**
+  <div class="text">
+  **My name is Tomoaki KOBAYASHI.**
+
+  **Nice to meet you! 🤗**
 
   - SNS
     - [X](https://twitter.com/moatom)
@@ -38,13 +39,50 @@ active-about: active
 
   - Programming languages
   - (Moderately) Functional programming
-  - Code generation, metaprograming
-  - Embedded domain-specific languages
+  - Embedded domain-specific languages, code generation, metaprogramming, partial evaluation
 
   My main research work is about [strymonas](https://strymonas.github.io/)---a
   lightweight declarative stream processing library which proposes *complete stream fusion*;
   its processing runs in constant memory!
-  </div>
+
+  My vision is to provide solutions to real-world problems of software through these techniques.
+  Software is often too fragile, and maintaining it consumes a tremendous amount of the world's resources unnecessarily.
+  To protect humanity's productivity, I will lead the way in making software robust and resilient.
+</div>
+<style>
+.container {
+  display: flex; /* 横並びにする */
+  flex-wrap: wrap; /* 必要に応じて折り返し */
+  /* align-items: center; 縦方向を中央揃え */
+  gap: 16px; /* 要素間の間隔 */
+}
+
+.image {
+  /* width: 200px; 画像の幅を適宜設定 */
+  /* height: auto; */
+  height: 400px;
+  margin-left: 20pt;
+  margin-right: 20pt;
+  margin-top: 10pt;
+}
+
+.text {
+  flex: 1; /* テキスト部分を画像に対して伸縮可能にする */
+}
+
+/* スマホ向けのスタイル（画面幅が768px以下の場合） */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* 縦並びにする */
+    align-items: flex-start; /* 左寄せにする */
+  }
+
+  .image {
+    /* width: 100%; 画面幅いっぱいに調整 */
+    height: 400px;
+  }
+}
+</style>
 </div>
 
 
@@ -52,8 +90,8 @@ active-about: active
 
 <div class="uooo">
 Year| Company / Job
-:-:|-
-2024--NOW | *Anonymized* / Ad tech (programatic advertisement) enginner
+:-:|-:
+2024--Present | [MicroAd, Inc.](https://jp.linkedin.com/company/microad-inc-) / Junior Software Engineer[^1]
 <style>
 .uooo > table{
   display: table;
@@ -63,6 +101,7 @@ Year| Company / Job
 }
 </style>
 </div>
+[^1]: I primarily work on developing an auction-based internet advertising delivery system, commonly known as Real-Time Bidding (RTB). I have ever recieved monthly MVP twice (￥50 k/MVP) in the Software Development Team
 
 
 # Academic
@@ -72,9 +111,9 @@ Year| Company / Job
 <div class="uooo">
 Year| Degree
 :-:|-:
-2022--2024 | **Master of Information Sciences in CS**, Tohoku University<br><small>GPA: 3.66[^1]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
-2018--2022 | **Bachelor of Engineering in CS**, Tohoku University<br><small>GPA: 3.55[^2]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
-2014--2015 | **Dropout**, *An evening high school*
+2022--2024 | **Master of Information Sciences in CS**, Tohoku University<br><small>GPA: 3.8[^2]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
+2018--2022 | **Bachelor of Engineering in CS**, Tohoku University<br><small>Major GPA: 3.73[^3]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
+2014--2015 | **Dropout**[^4], *An evening high school*
 <!-- 2015        | Pass the Upper Secondary School Equivalency Examination -->
 <!-- https://github.com/jgm/pandoc/issues/8139 -->
 <style>
@@ -87,41 +126,54 @@ Year| Degree
 </style>
 </div>
 
+[^2]: Please note that GPAs tend to be graded strictly in Japan. As a side note, I was exempted from the written exam when I entered the graduate school.
+[^3]: The same as 1.
+[^4]: Instead, I earned a high school equivalency diploma issued by the Japanese government. *It was pretty scary at the time, but looking back, it was one of the best decisions I ever made.*
+
 <!-- Detail: **[CV (pdf)](https://moatom.github.io/profile/static/cv-pub.pdf)** -->
 
 ## Publications
+
+Only international publications are listed here:
 
 ::: {#refs-moatom}
 :::
 
 ## Awards
 
-- ACM SIGPLAN PEPM 2024 Distinguished Paper Award ([image](./static/award-pepm24.jpeg))
-- [JPN] JSSST 2020 Best Presentation Award ([image](./static/award-jssst20.jpeg))
+<div class="uooo">
+Year| Award
+:-:|-:
+2024 | ACM SIGPLAN PEPM 2024 Distinguished Paper Award ([image](./static/award-pepm24.jpeg))
+2020 | [JPN] JSSST 2020 Best Presentation Award ([image](./static/award-jssst20.jpeg))
+<style>
+.uooo > table{
+  display: table;
+}
+.uooo col {
+  width: auto !important;
+}
+</style>
+</div>
+
+
 
 ## Grants
 
 - [ACM SIGPLAN Professional Activities Committee (PAC) Funding](https://pac.sigplan.org/) 2024: $1500
 
 
-# Personal
+# Skills and Tools
 
-## Skills and Tools
+### Professional Experience
 
-- Scala 3, OCaml, C, Python 3, JavaScript/Vue (, Kotlin, C++, JavaScript/React, Lua, Java, Rust)
-- Makefile, Git, Docker, Jenkins, GitHub Actions
-- Linux, macOS
-- VSCode, Emacs, Neovim,  IntelliJ
-- LaTeX, Pandoc
+- Scala, Python
+- GitHub Enterprise, Makefile, Docker, Ansible, Jenkins
+- Protocol Buffers, Niginx, MySQL, Redis, Akka, Apache Spark
+- on-prem environment
 
-## Avoiding Ambiguity
+### All in All
 
-- Typing, verification, etc., are outside the scope of my **research** interests.
-  I am just an ordinary user of them.
-  - From the perspective of [the lazy programmers](https://thethreevirtues.com/), I prefer GC over ownership for example. 🤫
-- Kobayashi is a common last name in Japan and no relative of mine isn't in research fields;
-  certainly my father was, but in the area of medicine---[artificial heart](https://nrid.nii.ac.jp/en/nrid/1000020323610/),
-  and not in computer science, mathematics, etc. :-)
-
-[^1]: If you are a foreigner, please note that GPAs at Japanese universities are assigned with extreme rigor. This is not the final record, but it should be close to it.
-[^2]: If you are a foreigner, please note that GPAs at Japanese universities are assigned with extreme rigor. This is not the final record, but it should be close to it.
+- Main Languages: Scala, OCaml, C, Python, JavaScript/Vue
+  - Sub Languages: Kotlin, C++, Rust, Lua, Java
+- Git, LaTex, Valgrind, GitHub Actions
