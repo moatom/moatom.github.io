@@ -170,10 +170,10 @@ Year| Award
 - Scala, Python
 - GitHub Enterprise, Makefile, Docker, Ansible, Jenkins
 - Protocol Buffers, Niginx, MySQL, Redis, Akka, Apache Spark
-- on-prem environment
+- On-prem environment
 
 ### All in All
 
 - Main Languages: Scala, OCaml, C, Python, JavaScript/Vue
   - Sub Languages: Kotlin, C++, Rust, Lua, Java
-- Git, LaTex, Valgrind, GitHub Actions
+- Git, LaTeX, Valgrind, GitHub Actions
