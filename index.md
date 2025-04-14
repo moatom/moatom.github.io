@@ -127,7 +127,7 @@ Year| Degree
 </div>
 
 [^2]: Please note that GPAs tend to be graded strictly in Japan. As a side note, I was exempted from the written exam when I entered the graduate school.
-[^3]: The same as 1.
+[^3]: The same as 2.
 [^4]: Instead, I earned a high school equivalency diploma issued by the Japanese government. *It was pretty scary at the time, but looking back, it was one of the best decisions I ever made.*
 
 <!-- Detail: **[CV (pdf)](https://moatom.github.io/profile/static/cv-pub.pdf)** -->
