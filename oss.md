@@ -10,7 +10,7 @@ Here, I will showcase the software projects I have worked on during my leisure t
 # Public Projects
 
 ## Strymonas
-<https://github.com/moatom/strymonas.github.io>
+<https://strymonas.github.io>
 
 # Personal Projects
 
@@ -18,7 +18,7 @@ Here, I will showcase the software projects I have worked on during my leisure t
 It is made of Pandoc.
 See <https://github.com/moatom/profile>.
 <!-- https://github.com/chambln/pandoc-rss -->
-  
+
 ## Alistice -- a bookmark management system
 
 <!-- center -->
