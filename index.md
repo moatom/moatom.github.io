@@ -22,6 +22,7 @@ active-about: active
 
   - SNS
     - [X](https://twitter.com/moatom)
+    - [LinkedIn](https://www.linkedin.com/in/tomoaki-kobayashi)
     - [GitHub](https://github.com/moatom)
     - [Gist](https://gist.github.com/moatom)
   - JPN
@@ -31,8 +32,7 @@ active-about: active
     - [ORCID: 0009-0006-7147-9997](https://orcid.org/0009-0006-7147-9997)
   <!-- - **[Quora](https://www.quora.com/profile/Tomoaki-Kobayashi-1)** -->
 
-  I am a software engineer (mainly writing Scala for my job)
-  with strong interest in research on software.
+  I am a software engineer with strong interest in research on software.
 
   My research interests focus on theoretical foundations of software and
   the application of them, especially in the following fields:
@@ -47,7 +47,7 @@ active-about: active
 
   My vision is to provide solutions to real-world problems of software through these techniques.
   Software is often too fragile, and maintaining it consumes a tremendous amount of the world's resources unnecessarily.
-  To protect humanity's productivity, I will lead the way in making software robust and resilient.
+  To protect humanity’s productivity, I will lead the way in building robust software—without ever sacrificing agility.
 </div>
 <style>
 .container {
@@ -101,7 +101,7 @@ Year| Company / Job
 }
 </style>
 </div>
-[^1]: I primarily work on developing an auction-based internet advertising delivery system, commonly known as Real-Time Bidding (RTB). I have ever recieved monthly MVP twice (￥50 k/MVP) in the Software Development Team
+[^1]: I primarily work on developing an auction-based internet advertising delivery system, commonly known as Real-Time Bidding (RTB). I have ever recieved monthly MVP twice in the Software Development Department.
 
 
 # Academic
@@ -134,7 +134,7 @@ Year| Degree
 
 ## Publications
 
-Only international publications are listed here:
+Only international publications are listed:
 
 ::: {#refs-moatom}
 :::
