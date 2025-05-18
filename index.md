@@ -24,8 +24,7 @@ active-about: active
   - SNS
     - [X](https://twitter.com/moatom)
     - [LinkedIn](https://www.linkedin.com/in/tomoaki-kobayashi)
-    - [GitHub](https://github.com/moatom)
-    - [Gist](https://gist.github.com/moatom)
+    - [GitHub](https://github.com/moatom)/[Gist](https://gist.github.com/moatom)
   - JPN
     - [Blog](https://moatom.blogspot.com/)
     - [Qiita](https://qiita.com/moatom)
@@ -71,6 +70,7 @@ active-about: active
   width: 200px;
   height: 200px;
   background-color:transparent;
+  transform:translateY(10%);
 }
 
 .text {
@@ -175,6 +175,12 @@ Year| Award
 
 - [ACM SIGPLAN Professional Activities Committee (PAC) Funding](https://pac.sigplan.org/) 2024: $1500
 
+# OSS
+- Major PRs
+  - 2025: https://github.com/fluent/fluentd/pull/4865
+  - 2019: https://github.com/swiftlang/swift/pull/25070
+- All PRs
+  - [View all closed PRs by `@moatom`](https://github.com/pulls?q=is%3Apr+author%3Amoatom+archived%3Afalse+is%3Aclosed)
 
 # Skills and Tools
 
