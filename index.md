@@ -177,8 +177,8 @@ Year| Award
 
 # OSS
 - Major PRs
-  - 2025: https://github.com/fluent/fluentd/pull/4865
-  - 2019: https://github.com/swiftlang/swift/pull/25070
+  - 2025: <https://github.com/fluent/fluentd/pull/4865>
+  - 2019: <https://github.com/swiftlang/swift/pull/25070>
 - All PRs
   - [View all closed PRs by `@moatom`](https://github.com/pulls?q=is%3Apr+author%3Amoatom+archived%3Afalse+is%3Aclosed)
 
@@ -186,13 +186,13 @@ Year| Award
 
 ### Professional Experience
 
-- Scala, Python
+- Scala, Python (with some hands-on experience in Kotlin and JavaScript/Vue)
 - GitHub Enterprise, Makefile, Docker, Ansible, Jenkins
 - Protocol Buffers, Niginx, MySQL, Redis, Akka, Apache Spark
 - On-prem environment
 
-### All in All
+### Personal/Academic Projects
 
-- Main Languages: Scala, OCaml, C, Python, JavaScript/Vue
-  - Sub Languages: Kotlin, C++, Rust, Lua, Java
-- Git, LaTeX, Valgrind, GitHub Actions
+- Main Languages: Scala, OCaml, Rust, Python
+  - Sub Languages: C/C++, Lua
+- LaTeX, Valgrind, GitHub Actions, Pandoc
