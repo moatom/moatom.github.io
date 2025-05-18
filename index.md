@@ -12,7 +12,8 @@ active-about: active
 <div class="container">
   <!-- <img src="https://moatom.github.io/profile/static/icon.png" alt="icon" width="100px"
        style="margin-left: 20pt; margin-right: 20pt;" /> -->
-  <img src="./static/me.jpg" alt="icon" class="image"/>
+  <!-- <img src="./static/me.jpg" alt="icon" class="image"/> -->
+  <img src="./static/me400-circle.png" alt="icon" class="image"/>
   <!-- <img src="./static/me.jpg" alt="icon" width="250px"
        style="margin-left: 20pt; margin-right: 20pt;" /> -->
   <div class="text">
@@ -57,13 +58,19 @@ active-about: active
   gap: 16px; /* 要素間の間隔 */
 }
 
-.image {
+.image-old {
   /* width: 200px; 画像の幅を適宜設定 */
   /* height: auto; */
   height: 400px;
   margin-left: 20pt;
   margin-right: 20pt;
   margin-top: 10pt;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  background-color:transparent;
 }
 
 .text {
@@ -77,9 +84,15 @@ active-about: active
     align-items: flex-start; /* 左寄せにする */
   }
 
-  .image {
+  .image-old {
     /* width: 100%; 画面幅いっぱいに調整 */
     height: 400px;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+    background-color:transparent;
   }
 }
 </style>
