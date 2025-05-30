@@ -38,7 +38,7 @@ active-about: active
   the application of them, especially in the following fields:
 
   - Programming languages
-  - (Moderately) Functional programming
+  - (Moderately!) Functional programming
   - Embedded domain-specific languages, code generation, metaprogramming, partial evaluation
 
   My main research work is about [strymonas](https://strymonas.github.io/)---a
@@ -124,8 +124,8 @@ Year| Company / Job
 <div class="uooo">
 Year| Degree
 :-:|-:
-2022--2024 | **Master of Information Sciences in CS**, Tohoku University<br><small>GPA: 3.8[^2]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
-2018--2022 | **Bachelor of Engineering in CS**, Tohoku University<br><small>Major GPA: 3.73[^3]/4.0, Advisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Advisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
+2022--2024 | **Master of Information Sciences in CS**, Tohoku University[^2]<br><small>GPA: 3.8/4.0, Supervisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Supervisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
+2018--2022 | **Bachelor of Engineering in CS**, Tohoku University<br><small>Major GPA: 3.73[^3]/4.0, Supervisor: [Eijiro Sumii](https://www.kb.ecei.tohoku.ac.jp/~sumii/), Thesis Supervisor: [Oleg Kiselyov](https://okmij.org/ftp/)</small>
 2014--2015 | **Dropout**[^4], *An evening high school*
 <!-- 2015        | Pass the Upper Secondary School Equivalency Examination -->
 <!-- https://github.com/jgm/pandoc/issues/8139 -->
@@ -139,15 +139,13 @@ Year| Degree
 </style>
 </div>
 
-[^2]: Please note that GPAs tend to be graded strictly in Japan. As a side note, I was exempted from the written exam when I entered the graduate school.
-[^3]: The same as 2.
+[^2]: Tohoku University is one of the most competitive research universities in Japan, and it was the first institution selected by the Japanese government for the ¥10 trillion university endowment fund. (Source: [tohoku.ac.jp](https://www.tohoku.ac.jp/en/news/university_news/meets_the_standards_required_to_be_accredited_as_a_university.html), [timeshighereducation.com](https://web.archive.org/web/20230903075002/https://www.timeshighereducation.com/news/tohoku-alone-advance-japans-y10-trillion-excellence-scheme), [nature.com](https://web.archive.org/web/20230930215445/https://www.nature.com/articles/d41586-023-02867-0))
+[^3]: Please note that GPAs tend to be graded strictly in Japan. As a side note, I was exempted from the written exam when I entered the graduate school.
 [^4]: Instead, I earned a high school equivalency diploma issued by the Japanese government. *It was pretty scary at the time, but looking back, it was one of the best decisions I ever made.*
 
 <!-- Detail: **[CV (pdf)](https://moatom.github.io/profile/static/cv-pub.pdf)** -->
 
-## Publications
-
-Only international publications are listed:
+## Major Publications
 
 ::: {#refs-moatom}
 :::
