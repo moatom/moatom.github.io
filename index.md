@@ -25,20 +25,22 @@ active-about: active
     - [X](https://twitter.com/moatom)
     - [LinkedIn](https://www.linkedin.com/in/tomoaki-kobayashi)
     - [GitHub](https://github.com/moatom)/[Gist](https://gist.github.com/moatom)
-  - JPN
+  <!-- - JPN
     - [Blog](https://moatom.blogspot.com/)
-    - [Qiita](https://qiita.com/moatom)
+    - [Qiita](https://qiita.com/moatom) -->
   - Misc.
     - [ORCID: 0009-0006-7147-9997](https://orcid.org/0009-0006-7147-9997)
   <!-- - **[Quora](https://www.quora.com/profile/Tomoaki-Kobayashi-1)** -->
 
   I am a software engineer with strong interest in research on software.
 
+  <!-- [monozukuri](https://en.wikipedia.org/wiki/Monozukuri) (manufacturing in Zen style) -->
+
   My research interests focus on theoretical foundations of software and
   the application of them, especially in the following fields:
 
   - Programming languages
-  - (Moderately!) Functional programming
+  - (Moderately) Functional programming
   - Embedded domain-specific languages, code generation, metaprogramming, partial evaluation
 
   My main research work is about [strymonas](https://strymonas.github.io/)---a
@@ -101,10 +103,11 @@ active-about: active
 
 # Experience
 
+<!-- 2024--Present | [MicroAd, Inc.](https://jp.linkedin.com/company/microad-inc-) / Software Engineer[^1] -->
 <div class="uooo">
 Year| Company / Job
 :-:|-:
-2024--Present | [MicroAd, Inc.](https://jp.linkedin.com/company/microad-inc-) / Junior Software Engineer[^1]
+2024--Oct. 2025 | [MicroAd, Inc.](https://jp.linkedin.com/company/microad-inc-) / Software Engineer[^1]
 <style>
 .uooo > table{
   display: table;
@@ -115,6 +118,8 @@ Year| Company / Job
 </style>
 </div>
 [^1]: I primarily work on developing an auction-based internet advertising delivery system, commonly known as Real-Time Bidding (RTB). I have ever recieved monthly MVP twice in the Software Development Department.
+
+<!-- https://web.archive.org/web/20250514181059/https://www.wantedly.com/companies/microad_recruit/post_articles/975333 -->
 
 
 # Academic
@@ -140,7 +145,7 @@ Year| Degree
 </div>
 
 [^2]: Tohoku University is one of the most competitive research universities in Japan, and it was the first institution selected by the Japanese government for the ¥10 trillion university endowment fund. (Source: [tohoku.ac.jp](https://www.tohoku.ac.jp/en/news/university_news/meets_the_standards_required_to_be_accredited_as_a_university.html), [timeshighereducation.com](https://web.archive.org/web/20230903075002/https://www.timeshighereducation.com/news/tohoku-alone-advance-japans-y10-trillion-excellence-scheme), [nature.com](https://web.archive.org/web/20230930215445/https://www.nature.com/articles/d41586-023-02867-0))
-[^3]: Please note that GPAs tend to be graded strictly in Japan. As a side note, I was exempted from the written exam when I entered the graduate school.
+[^3]: Please note that GPAs tend to be graded strictly in Japan. As a side note, I was exempted from the exam when I entered the graduate school.
 [^4]: Instead, I earned a high school equivalency diploma issued by the Japanese government. *It was pretty scary at the time, but looking back, it was one of the best decisions I ever made.*
 
 <!-- Detail: **[CV (pdf)](https://moatom.github.io/profile/static/cv-pub.pdf)** -->
@@ -173,10 +178,20 @@ Year| Award
 
 - [ACM SIGPLAN Professional Activities Committee (PAC) Funding](https://pac.sigplan.org/) 2024: $1500
 
+<!-- ## Teaching
+
+- 1 プロ演習B
+- 2　コンパイラ
+- 3　 -->
+
 # OSS
 - Major PRs
-  - 2025: <https://github.com/fluent/fluentd/pull/4865>
-  - 2019: <https://github.com/swiftlang/swift/pull/25070>
+  - 2025:
+    - <https://github.com/fluent/fluentd/pull/4865>
+    - <https://github.com/rust-lang/rust/pull/141608>
+    - <https://github.com/rust-lang/rust/pull/140916>
+  - 2019
+    - <https://github.com/swiftlang/swift/pull/25070>
 - All PRs
   - [View all closed PRs by `@moatom`](https://github.com/pulls?q=is%3Apr+author%3Amoatom+archived%3Afalse+is%3Aclosed)
 
