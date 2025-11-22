@@ -13,7 +13,7 @@ active-about: active
   <!-- <img src="https://moatom.github.io/profile/static/icon.png" alt="icon" width="100px"
        style="margin-left: 20pt; margin-right: 20pt;" /> -->
   <!-- <img src="./static/me.jpg" alt="icon" class="image"/> -->
-  <img src="./static/me400-circle.png" alt="icon" class="image"/>
+  <img src="./static/me294-circle.png" alt="icon" class="image"/>
   <!-- <img src="./static/me.jpg" alt="icon" width="250px"
        style="margin-left: 20pt; margin-right: 20pt;" /> -->
   <div class="text">
@@ -34,22 +34,23 @@ active-about: active
 
   I am a software engineer with strong interest in research on software.
 
-  <!-- [monozukuri](https://en.wikipedia.org/wiki/Monozukuri) (manufacturing in Zen style) -->
+  <!-- [monozukuri](https://en.wikipedia.org/wiki/Monozukuri) (creative in Zen style) -->
 
   My research interests focus on theoretical foundations of software and
   the application of them, especially in the following fields:
 
   - Programming languages
-  - (Moderately) Functional programming
+  - Functional programming, declarative programming
   - Embedded domain-specific languages, code generation, metaprogramming, partial evaluation
 
-  My main research work is about [strymonas](https://strymonas.github.io/)---a
+  <!-- My main research work is about [strymonas](https://strymonas.github.io/)---a
   lightweight declarative stream processing library which proposes *complete stream fusion*;
-  its processing runs in constant memory!
+  its processing runs in constant memory! -->
 
   My vision is to provide solutions to real-world problems of software through these techniques.
   Software is often too fragile, and maintaining it consumes a tremendous amount of the world's resources unnecessarily.
-  To protect humanity’s productivity, I will lead the way in building robust software—without ever sacrificing agility.
+
+  I will lead the way in building robust software to empower humanity’s creativity—without ever sacrificing agility.
 </div>
 <style>
 .container {
@@ -103,11 +104,11 @@ active-about: active
 
 # Experience
 
-<!-- 2024--Present | [MicroAd, Inc.](https://jp.linkedin.com/company/microad-inc-) / Software Engineer[^1] -->
 <div class="uooo">
 Year| Company / Job
-:-:|-:
-2024--Oct. 2025 | [MicroAd, Inc.](https://jp.linkedin.com/company/microad-inc-) / Software Engineer[^1]
+:-|-:
+Oct. 2025--Present | [U-NEXT Co., Ltd.](https://www.unext.co.jp/en) / Software Engineer
+Apr. 2024--Oct. 2025 | [MicroAd, Inc.](https://jp.linkedin.com/company/microad-inc-) / Software Engineer[^1]
 <style>
 .uooo > table{
   display: table;
@@ -155,6 +156,8 @@ Year| Degree
 ::: {#refs-moatom}
 :::
 
+<!-- [JPN]メタプログラミング研究集会, Tsukuba University, 2022, https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-18H03218#product_51 -->
+
 ## Awards
 
 <div class="uooo">
@@ -180,16 +183,17 @@ Year| Award
 
 <!-- ## Teaching
 
-- 1 プロ演習B
-- 2　コンパイラ
+- 1 Oct. 2022-Feb. 2022 プロ演習B
+- 2 Apr. 2022-Aug.2022 コンパイラ
 - 3　 -->
 
 # OSS
 - Major PRs
   - 2025:
-    - <https://github.com/fluent/fluentd/pull/4865>
-    - <https://github.com/rust-lang/rust/pull/141608>
+    - <https://github.com/microsoft/onnxscript/pull/2645>
     - <https://github.com/rust-lang/rust/pull/140916>
+    - <https://github.com/rust-lang/rust/pull/141608>
+    - <https://github.com/fluent/fluentd/pull/4865>
   - 2019
     - <https://github.com/swiftlang/swift/pull/25070>
 - All PRs
@@ -197,15 +201,16 @@ Year| Award
 
 # Skills and Tools
 
-### Professional Experience
+## Professional Experience
 
-- Scala, Python (with some hands-on experience in Kotlin and JavaScript/Vue)
-- GitHub Enterprise, Makefile, Docker, Ansible, Jenkins
-- Protocol Buffers, Niginx, MySQL, Redis, Akka, Apache Spark
-- On-prem environment
+- Java, Kotlin, Scala, Python (with some hands-on experience in JavaScript/Vue)
+- Niginx, MySQL, Redis, Akka, Apache Spark
+- Makefile, Ansible, Jenkins, GitHub Actions
+- gRPC, REST
+- k8s, GCP, SSH Docker depoloy for On-prem servers
+- GitHub/GitHub Enterprise, Gitlab
 
-### Personal/Academic Projects
+## Personal/Academic Projects
 
-- Main Languages: Scala, OCaml, Rust, Python
-  - Sub Languages: C/C++, Lua
-- LaTeX, Valgrind, GitHub Actions, Pandoc
+- Rust, Python, OCaml, C/C++, Lua
+- LaTeX, Valgrind, Pandoc

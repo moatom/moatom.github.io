@@ -5,7 +5,7 @@ date: $date
 active-oss: active
 ---
 
-Here, I will showcase the software projects I have worked on during my leisure time.
+I will showcase the software projects I have worked on during my leisure time here.
 
 # Public Projects
 
